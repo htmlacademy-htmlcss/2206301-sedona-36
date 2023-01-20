@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Olga Limonova](https://up.htmlacademy.ru/htmlcss/36/user/2206301).
-* Наставник: `Неизвестно`.
+* Наставник: `Анна Волкова`*(https://htmlacademy.ru/profile/id477715).
 
 ---
 
