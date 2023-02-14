@@ -14,6 +14,11 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
@@ -22,6 +27,12 @@ body {
   display: flex;
   flex-direction: column;
   width: 1200px;
+  min-height: 100%;
+  background-color: white;
+}
+
+main {
+  flex-grow: 1;
 }
 
 li {
@@ -30,10 +41,10 @@ li {
 
 .page-header {
   background-color: white;
-  color: black;
-  width: 100%;
+  width: 1200px;
   height: 64px;
   display: flex;
+  color:#000;
 }
 
 .navigation {
@@ -41,12 +52,37 @@ li {
   width: 1200px;
   margin: 0 auto;
   display: flex;
+  padding: 0 70px;
+  color:black;
+}
+
+.navigation-container {
+  display: flex;
   justify-content: space-between;
+  width: 922px;
+}
+
+.navigation-item {
+  padding: 16px 20px;
+}
+
+.navigation-item-button {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color:#756157;
+  font-weight: 700;
+  display: inline-block;
+  padding: 8px 50px;
+  border-radius: 4px;
+  margin-top: 54px;
 }
 
 ul.navigation-list li {
-display: inline;
-}
+  display: inline;
+  }
+
 
 .visually-hidden {
     position: absolute;
@@ -69,6 +105,10 @@ display: inline;
   text-align: center;
   text-decoration: none;
   color: black;
+}
+
+.navigation-button{
+  color: white;
 }
 
 .hero {
